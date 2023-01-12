@@ -58,7 +58,7 @@ section {
     font-size: 1.7rem;
     padding: 1rem 3rem;
 
-    &:hover{
+    &:hover {
         color: $white;
         background-color: $black;
     }
@@ -221,6 +221,7 @@ section {
                 line-height: 2;
                 color: $black;
                 font-size: 1.5rem;
+                padding: 1rem 0;
             }
 
         }
@@ -228,7 +229,7 @@ section {
 }
 
 .swiper-button-next::after,
-.swiper-button-prev::after{
+.swiper-button-prev::after {
     font-size: 2rem !important;
     color: $black;
 }
@@ -249,6 +250,31 @@ section {
 
     html {
         font-size: 55%;
+    }
+
+    .home .box {
+        padding: 0 4rem;
+        justify-content: center;
+        background-position: right !important;
+
+
+        &.second {
+            background-position: left !important;
+        }
+    }
+
+
+
+    .content {
+        text-align: center;
+
+        span {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 4rem;
+        }
     }
 
 }
@@ -292,6 +318,11 @@ section {
             }
         }
 
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
     }
 
 }
