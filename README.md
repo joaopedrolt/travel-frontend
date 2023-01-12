@@ -21,9 +21,9 @@
 - Clonar ou fazer download do projeto.
 - Abrir o arquivo "index.html" em seu navegador de preferência.
 
-<h5 align="center">Obs: Caso a imagem não carregar clique no texto gerado para abri-la em uma guia do navegador ou recarregue a página do repositório</h5>
-
 <h3 align="center">Imagens do Software</h3>
+
+<h5 align="center">Obs: Caso a imagem não carregar clique no texto gerado para abri-la em uma guia do navegador ou recarregue a página do repositório</h5>
 
 <div align="center"><img src="http://drive.google.com/uc?export=view&id="  width=600 alt="Imagem 1" /></div>
 
