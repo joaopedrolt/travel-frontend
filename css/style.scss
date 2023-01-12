@@ -16,7 +16,7 @@ $green: #219150;
 $black: #10222b;
 $white: #fff;
 $light-bg: #eee;
-$border: 2rem solid $black;
+$border: .1rem solid $black;
 $box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 
 @mixin grid($width) {
@@ -46,6 +46,22 @@ html {
 
 section {
     padding: 5rem 9%;
+}
+
+.btn {
+    margin-top: 2rem;
+    display: inline-block;
+    border: $border;
+    color: $black;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+
+    &:hover{
+        color: $white;
+        background-color: $black;
+    }
 }
 
 .header {
@@ -201,15 +217,20 @@ section {
                 text-transform: uppercase;
             }
 
-            p{
+            p {
                 line-height: 2;
                 color: $black;
                 font-size: 1.5rem;
-              
             }
 
         }
     }
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 2rem !important;
+    color: $black;
 }
 
 @media (max-width: 1200px) {

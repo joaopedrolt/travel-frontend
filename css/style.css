@@ -31,6 +31,21 @@ section {
   padding: 5rem 9%;
 }
 
+.btn {
+  margin-top: 2rem;
+  display: inline-block;
+  border: 0.1rem solid #10222b;
+  color: #10222b;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #10222b;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -167,6 +182,12 @@ section {
   line-height: 2;
   color: #10222b;
   font-size: 1.5rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem !important;
+  color: #10222b;
 }
 
 @media (max-width: 1200px) {
