@@ -81,7 +81,7 @@ section {
     display: flex;
     align-items: center;
 
-    &.active{
+    &.active {
         background-color: $white;
         box-shadow: $box-shadow;
     }
@@ -261,12 +261,12 @@ section {
                 border-radius: 50%;
             }
 
-            h3{
+            h3 {
                 font-size: 2rem;
                 color: $green;
             }
 
-            p{
+            p {
                 font-size: 1.6rem;
                 color: $black;
                 padding: 1rem 0;
@@ -275,6 +275,10 @@ section {
         }
     }
 
+}
+
+.about {
+    
 }
 
 @media (max-width: 1200px) {
