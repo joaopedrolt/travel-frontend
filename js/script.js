@@ -45,3 +45,12 @@ var swiper = new Swiper(".home-slider", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+var swiper = new Swiper(".product-slider", {
+    loop: true,
+    grabCursor: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
