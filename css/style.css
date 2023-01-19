@@ -15,7 +15,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-bottom: 5rem;
 }
 html::-webkit-scrollbar {
   width: 1rem;
@@ -178,6 +178,7 @@ section {
 }
 .home .box .content {
   width: 50rem;
+  line-height: 1.1;
 }
 .home .box .content span {
   font-size: 4rem;
@@ -190,7 +191,7 @@ section {
   text-transform: uppercase;
 }
 .home .box .content p {
-  line-height: 2;
+  line-height: 2 !important;
   color: #10222b;
   font-size: 1.5rem;
   padding: 1rem 0;
@@ -227,6 +228,95 @@ section {
   line-height: 2;
 }
 
+.about {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.about .image {
+  flex: 1 1 42rem;
+  padding-bottom: 5rem;
+  padding-right: 5rem;
+}
+.about .image img {
+  width: 100%;
+  box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+.about .content {
+  flex: 1 1 42rem;
+}
+.about .content h3 {
+  font-size: 3rem;
+  color: #219150;
+}
+.about .content p {
+  font-size: 1.5rem;
+  color: #10222b;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.shop .slide {
+  width: 35rem;
+  border: 0.1rem solid #10222b;
+}
+.shop .slide:hover .image .icons {
+  transform: none;
+}
+.shop .image {
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+  width: 100%;
+}
+.shop .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.shop .image .icons {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+  text-align: center;
+  z-index: 10;
+  transform: translateY(7rem);
+}
+.shop .image .icons a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  background: #10222b;
+  color: #fff;
+  margin: 0 0.2rem;
+  border-radius: 9%;
+}
+.shop .image .icons a:hover {
+  background-color: #219150;
+}
+.shop .content {
+  padding: 1.2rem 0;
+  text-align: center;
+}
+.shop .content h3 {
+  font-size: 2rem;
+  color: #10222b;
+}
+.shop .content .price {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  color: #219150;
+}
+.shop .content .stars i {
+  font-size: 1.7rem;
+  color: #10222b;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
@@ -238,6 +328,7 @@ section {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+    scroll-padding-top: 7rem;
   }
   .home .box {
     padding: 0 4rem;
@@ -247,14 +338,17 @@ section {
   .home .box.second {
     background-position: left !important;
   }
-  .content {
+  .swiper-slide .box .content {
     text-align: center;
   }
-  .content span {
+  .swiper-slide .box .content span {
     font-size: 3rem;
   }
-  .content h3 {
+  .swiper-slide .box .content h3 {
     font-size: 4rem;
+  }
+  .about .content {
+    text-align: center;
   }
 }
 @media (max-width: 768px) {

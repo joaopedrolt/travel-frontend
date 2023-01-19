@@ -29,7 +29,7 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-bottom: 5rem;
 
     &::-webkit-scrollbar {
         width: 1rem;
@@ -216,6 +216,7 @@ section {
 
         .content {
             width: 50rem;
+            line-height: 1.1;
 
             span {
                 font-size: 4rem;
@@ -230,7 +231,7 @@ section {
             }
 
             p {
-                line-height: 2;
+                line-height: 2 !important;
                 color: $black;
                 font-size: 1.5rem;
                 padding: 1rem 0;
@@ -278,7 +279,109 @@ section {
 }
 
 .about {
-    
+    background: $light-bg;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .image {
+        flex: 1 1 42rem;
+        padding-bottom: 5rem;
+        padding-right: 5rem;
+
+        img {
+            width: 100%;
+            box-shadow: 4rem 4rem 0 rgba(0, 0, 0, .1);
+        }
+    }
+
+    .content {
+        flex: 1 1 42rem;
+
+        h3 {
+            font-size: 3rem;
+            color: $green;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: $black;
+            padding: 1rem 0;
+            line-height: 2;
+        }
+    }
+}
+
+.shop {
+    .slide {
+        width: 35rem;
+        border: $border;
+
+        &:hover .image .icons{
+            transform: none;
+        }
+    }
+
+    .image {
+        position: relative;
+        overflow: hidden;
+        height: 30rem;
+        width: 100%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .icons {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 2rem;
+            text-align: center;
+            z-index: 10;
+            transform: translateY(7rem);
+
+            a {
+                height: 4.5rem;
+                width: 4.5rem;
+                line-height: 4.5rem;
+                font-size: 1.7rem;
+                background: $black;
+                color: $white;
+                margin: 0 .2rem;
+                border-radius: 9%;
+
+                &:hover {
+                    background-color: $green;
+                }
+            }
+        }
+    }
+
+    .content {
+        padding: 1.2rem 0;
+        text-align: center;
+
+        h3 {
+            font-size: 2rem;
+            color: $black;
+        }
+
+        .price {
+            padding-top: .5rem;
+            padding-bottom: 1rem;
+            font-size: 2rem;
+            color: $green;
+        }
+
+        .stars i {
+            font-size: 1.7rem;
+            color: $black;
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -297,6 +400,7 @@ section {
 
     html {
         font-size: 55%;
+        scroll-padding-top: 7rem;
     }
 
     .home .box {
@@ -310,15 +414,25 @@ section {
         }
     }
 
-    .content {
-        text-align: center;
+    .swiper-slide {
+        .box {
+            .content {
+                text-align: center;
 
-        span {
-            font-size: 3rem;
+                span {
+                    font-size: 3rem;
+                }
+
+                h3 {
+                    font-size: 4rem;
+                }
+            }
         }
+    }
 
-        h3 {
-            font-size: 4rem;
+    .about {
+        .content {
+            text-align: center;
         }
     }
 
