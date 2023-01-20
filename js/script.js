@@ -37,7 +37,7 @@ document.getElementById('close-search').onclick = () => {
     searchForm.classList.remove('active');
 }
 
-var swiper = new Swiper(".home-slider", {
+var swiperHome = new Swiper(".home-slider", {
     loop: true,
     grabCursor: true,
     navigation: {
@@ -46,11 +46,32 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
-var swiper = new Swiper(".product-slider", {
+var swiperShop = new Swiper(".product-slider", {
     loop: true,
     grabCursor: true,
+    /*  slidesPerView: 5, */
+    spaceBetween: 20,
+    /*     slidesPerGroup: 5, */
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        581: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        1200: {
+            slidesPerView: 4
+        },
+    }
 });
+
+
+
+

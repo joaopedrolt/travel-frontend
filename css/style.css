@@ -258,25 +258,24 @@ section {
   line-height: 2;
 }
 
-.shop .slide {
-  width: 35rem;
+.shop .swiper-slide {
   border: 0.1rem solid #10222b;
 }
-.shop .slide:hover .image .icons {
+.shop .swiper-slide:hover .image .icons {
   transform: none;
 }
-.shop .image {
+.shop .swiper-slide .image {
   position: relative;
   overflow: hidden;
   height: 30rem;
   width: 100%;
 }
-.shop .image img {
+.shop .swiper-slide .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.shop .image .icons {
+.shop .swiper-slide .image .icons {
   width: 100%;
   position: absolute;
   left: 0;
@@ -285,7 +284,7 @@ section {
   z-index: 10;
   transform: translateY(7rem);
 }
-.shop .image .icons a {
+.shop .swiper-slide .image .icons a {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -295,26 +294,30 @@ section {
   margin: 0 0.2rem;
   border-radius: 9%;
 }
-.shop .image .icons a:hover {
+.shop .swiper-slide .image .icons a:hover {
   background-color: #219150;
 }
-.shop .content {
+.shop .swiper-slide .content {
   padding: 1.2rem 0;
   text-align: center;
 }
-.shop .content h3 {
+.shop .swiper-slide .content h3 {
   font-size: 2rem;
   color: #10222b;
 }
-.shop .content .price {
+.shop .swiper-slide .content .price {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   font-size: 2rem;
   color: #219150;
 }
-.shop .content .stars i {
+.shop .swiper-slide .content .stars i {
   font-size: 1.7rem;
   color: #10222b;
+}
+.shop .swiper-button-next,
+.shop .swiper-button-prev {
+  top: 45% !important;
 }
 
 @media (max-width: 1200px) {
@@ -382,14 +385,17 @@ section {
     top: 1rem;
     right: 2rem;
   }
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
+  .home .swiper-button-next::after,
+  .home .swiper-button-prev::after {
     display: none;
   }
 }
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+  .heading {
+    font-size: 3rem;
   }
 }
 

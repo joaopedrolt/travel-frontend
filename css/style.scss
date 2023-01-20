@@ -314,73 +314,77 @@ section {
 }
 
 .shop {
-    .slide {
-        width: 35rem;
+    .swiper-slide {
         border: $border;
 
-        &:hover .image .icons{
+        &:hover .image .icons {
             transform: none;
         }
-    }
 
-    .image {
-        position: relative;
-        overflow: hidden;
-        height: 30rem;
-        width: 100%;
-
-        img {
-            height: 100%;
+        .image {
+            position: relative;
+            overflow: hidden;
+            height: 30rem;
             width: 100%;
-            object-fit: cover;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .icons {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: 2rem;
+                text-align: center;
+                z-index: 10;
+                transform: translateY(7rem);
+
+                a {
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    line-height: 4.5rem;
+                    font-size: 1.7rem;
+                    background: $black;
+                    color: $white;
+                    margin: 0 .2rem;
+                    border-radius: 9%;
+
+                    &:hover {
+                        background-color: $green;
+                    }
+                }
+            }
         }
 
-        .icons {
-            width: 100%;
-            position: absolute;
-            left: 0;
-            bottom: 2rem;
+        .content {
+            padding: 1.2rem 0;
             text-align: center;
-            z-index: 10;
-            transform: translateY(7rem);
 
-            a {
-                height: 4.5rem;
-                width: 4.5rem;
-                line-height: 4.5rem;
+            h3 {
+                font-size: 2rem;
+                color: $black;
+            }
+
+            .price {
+                padding-top: .5rem;
+                padding-bottom: 1rem;
+                font-size: 2rem;
+                color: $green;
+            }
+
+            .stars i {
                 font-size: 1.7rem;
-                background: $black;
-                color: $white;
-                margin: 0 .2rem;
-                border-radius: 9%;
-
-                &:hover {
-                    background-color: $green;
-                }
+                color: $black;
             }
         }
     }
 
-    .content {
-        padding: 1.2rem 0;
-        text-align: center;
-
-        h3 {
-            font-size: 2rem;
-            color: $black;
-        }
-
-        .price {
-            padding-top: .5rem;
-            padding-bottom: 1rem;
-            font-size: 2rem;
-            color: $green;
-        }
-
-        .stars i {
-            font-size: 1.7rem;
-            color: $black;
-        }
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 45% !important;
     }
 }
 
@@ -479,9 +483,12 @@ section {
 
     }
 
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-        display: none;
+    .home {
+
+        .swiper-button-next::after,
+        .swiper-button-prev::after {
+            display: none;
+        }
     }
 
 }
@@ -490,6 +497,10 @@ section {
 
     html {
         font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
     }
 
 }
