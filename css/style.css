@@ -378,8 +378,51 @@ section {
   color: #219150;
 }
 
+.reviews .slide .text {
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  word-wrap: break-word;
+  background: #eee;
+  border-radius: 0.5rem;
+  height: 24rem;
+  color: #10222b;
+  position: relative;
+  line-height: 2;
+  z-index: 0;
+  margin-bottom: 3rem;
+}
+.reviews .slide .text::before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  bottom: -1.5rem;
+  left: 0.7rem;
+  background: #eee;
+  transform: rotate(45deg);
+}
+.reviews .slide .user {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.reviews .slide .user img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+.reviews .slide .user .info h3 {
+  font-size: 2rem;
+  color: #10222b;
+}
+.reviews .slide .user .info span {
+  color: #219150;
+  font-size: 1.5rem;
+}
+
 .services {
-  background: #fff;
+  background: #eee;
 }
 .services .box-container {
   display: grid;
