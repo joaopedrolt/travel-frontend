@@ -382,13 +382,11 @@ section {
   padding: 2rem;
   font-size: 1.5rem;
   font-style: italic;
-  word-wrap: break-word;
   background: #eee;
   border-radius: 0.5rem;
-  height: 24rem;
-  color: #10222b;
-  position: relative;
+  color: #10221b;
   line-height: 2;
+  position: relative;
   z-index: 0;
   margin-bottom: 3rem;
 }
