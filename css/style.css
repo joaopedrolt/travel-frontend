@@ -466,6 +466,18 @@ section {
   line-height: 2;
 }
 
+.blogs .slide {
+  text-align: center;
+  width: 35rem;
+  padding: 2rem;
+}
+.blogs .slide img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;

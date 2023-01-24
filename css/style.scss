@@ -473,7 +473,7 @@ section {
             position: relative;
             z-index: 0;
             margin-bottom: 3rem;
-            
+
             &::before {
                 content: ('');
                 position: absolute;
@@ -499,7 +499,7 @@ section {
 
             .info {
 
-                h3{
+                h3 {
                     font-size: 2rem;
                     color: $black;
                 }
@@ -568,6 +568,24 @@ section {
                 line-height: 2;
             }
         }
+    }
+}
+
+.blogs {
+
+    .slide {
+        text-align: center;
+        width: 35rem;
+        padding: 2rem;
+
+        img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+            border-radius: .5rem;
+        }
+
+
     }
 }
 
