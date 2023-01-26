@@ -577,6 +577,7 @@ section {
         text-align: center;
         width: 35rem;
         padding: 2rem;
+        padding-top: 0;
 
         img {
             height: 25rem;
@@ -585,8 +586,54 @@ section {
             border-radius: .5rem;
         }
 
+        .icons {
+            background: $black;
+            border-radius: .5rem;
+            padding: 1rem;
+            position: relative;
+            display: inline-block;
+            top: -2.5rem;
+
+            a {
+                font-size: 1.4rem;
+                color: $white;
+                margin: 0 .8rem;
+
+                &:hover {
+                    color: $green;
+                }
+
+                i {
+                    font-size: 1.7rem;
+                    padding-right: .5rem;
+                    color: $green;
+                }
+            }
+
+        }
+
+        .content {
+            position: relative;
+            top: -.7rem;
+
+            h3 {
+                font-size: 2rem;
+                color: $black;
+            }
+
+            p {
+                font-size: 1.5rem;
+                line-height: 2;
+                color: $black;
+            }
+
+        }
 
     }
+}
+
+.newsletter {
+    background: $light-bg;
 }
 
 @media (max-width: 1200px) {

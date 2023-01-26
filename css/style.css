@@ -470,12 +470,51 @@ section {
   text-align: center;
   width: 35rem;
   padding: 2rem;
+  padding-top: 0;
 }
 .blogs .slide img {
   height: 25rem;
   width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
+}
+.blogs .slide .icons {
+  background: #10222b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  display: inline-block;
+  top: -2.5rem;
+}
+.blogs .slide .icons a {
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 0 0.8rem;
+}
+.blogs .slide .icons a:hover {
+  color: #219150;
+}
+.blogs .slide .icons a i {
+  font-size: 1.7rem;
+  padding-right: 0.5rem;
+  color: #219150;
+}
+.blogs .slide .content {
+  position: relative;
+  top: -0.7rem;
+}
+.blogs .slide .content h3 {
+  font-size: 2rem;
+  color: #10222b;
+}
+.blogs .slide .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #10222b;
+}
+
+.newsletter {
+  background: #eee;
 }
 
 @media (max-width: 1200px) {
