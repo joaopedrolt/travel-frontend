@@ -515,6 +515,92 @@ section {
 
 .newsletter {
   background: #eee;
+  padding-bottom: 4.4rem !important;
+}
+.newsletter .heading {
+  margin-bottom: 0.5rem !important;
+}
+.newsletter .content {
+  max-width: 70rem;
+  margin: auto;
+  text-align: center;
+}
+.newsletter .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #10222b;
+}
+.newsletter .content form {
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 5rem;
+  border: 0.1rem solid #10222b;
+  padding: 0.7rem;
+  display: flex;
+}
+.newsletter .content form .email {
+  width: 100%;
+  background: none;
+  text-transform: none;
+  font-size: 1.6rem;
+  color: #10222b;
+  padding: 0 1.3rem;
+}
+.newsletter .content form .btn {
+  margin-top: 0;
+  border-radius: 5rem;
+  background: #10222b;
+  color: #fff;
+}
+.newsletter .content form .btn:hover {
+  background: none;
+  color: #10222b;
+}
+
+.clients .slide {
+  text-align: center;
+}
+.clients .slide img {
+  height: 12rem;
+}
+
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box {
+  text-align: center;
+}
+.footer .box-container .box h3 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  color: #fff;
+}
+.footer .box-container .box .email {
+  text-transform: lowercase;
+}
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+.footer .box-container .box a i {
+  color: #219150;
+  padding-right: 0.5rem;
+}
+.footer .box-container .box a:hover {
+  color: #219150;
+}
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
 }
 
 @media (max-width: 1200px) {
@@ -536,6 +622,7 @@ section {
     background-position: right !important;
   }
   .home .box.second {
+    justify-content: center;
     background-position: left !important;
   }
   .swiper-slide .box .content {

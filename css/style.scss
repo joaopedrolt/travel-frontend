@@ -634,8 +634,115 @@ section {
 
 .newsletter {
     background: $light-bg;
+    padding-bottom: 4.4rem !important;
 
-    
+    .heading {
+        margin-bottom: .5rem !important;
+    }
+
+    .content {
+        max-width: 70rem;
+        margin: auto;
+        text-align: center;
+
+        p {
+            font-size: 1.5rem;
+            line-height: 2;
+            color: $black;
+        }
+
+        form {
+            margin-top: 2rem;
+            background: $white;
+            border-radius: 5rem;
+            border: $border;
+            padding: .7rem;
+            display: flex;
+
+            .email {
+                width: 100%;
+                background: none;
+                text-transform: none;
+                font-size: 1.6rem;
+                color: $black;
+                padding: 0 1.3rem;
+            }
+
+            .btn {
+                margin-top: 0;
+                border-radius: 5rem;
+                background: $black;
+                color: $white;
+
+                &:hover {
+                    background: none;
+                    color: $black;
+                }
+
+            }
+        }
+
+    }
+
+}
+
+.clients {
+
+    .slide {
+        text-align: center;
+
+        img {
+            height: 12rem;
+        }
+    }
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/footer-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .box-container {
+        @include grid(25rem);
+
+
+        .box {
+            text-align: center;
+
+            h3 {
+                font-size: 2rem;
+                padding-bottom: 1.5rem;
+                color: $white;
+            }
+
+            .email {
+                text-transform: lowercase;
+            }
+
+            a {
+                display: block;
+                font-size: 1.4rem;
+                color: $white;
+                padding: 1rem 0;
+
+                i {
+                    color: $green;
+                    padding-right: .5rem;
+                }
+
+                &:hover {
+                    color: $green;
+
+                    i {
+                        padding-right: 2rem;
+                    }
+                }
+            }
+
+        }
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -664,6 +771,7 @@ section {
 
 
         &.second {
+            justify-content: center;
             background-position: left !important;
         }
     }
