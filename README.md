@@ -4,7 +4,7 @@
  
 - Nome do Projeto: Travel.
 - Autoria: Código inspirado no canal Mr. Web Designer.
-- Proposito: Aperfeiçoamento em Sass.
+- Proposito: Aperfeiçoamento em Sass, Swiper e Grid Wrap.
 - Progresso: Em desenvolvimento.
 - Tecnologias utilizadas: Html, Css e Javascript.
 - Requisitos: Qualquer navegador.
@@ -25,8 +25,8 @@
 
 <h5 align="center">Obs: Caso a imagem não carregar clique no texto gerado para abri-la em uma guia do navegador ou recarregue a página do repositório</h5>
 
-<div align="center"><img src="http://drive.google.com/uc?export=view&id="  width=600 alt="Imagem 1" /></div>
+<div align="center"><img src="http://drive.google.com/uc?export=view&id=1uT9KbXniCozUULqhwUaxSRSMoNdh1yx3" width=600 alt="Imagem 1" /></div>
 
-<div align="center"><img src="http://drive.google.com/uc?export=view&id=" width=300 alt="Imagem 2" /></div>
+<div align="center"><img src="http://drive.google.com/uc?export=view&id=1I-dOmO02qa3a-lIYCrwF46mLcN8i3Fw7" width=300 alt="Imagem 2" /></div>
 
-<div align="center"><img src="http://drive.google.com/uc?export=view&id=" width=300 alt="Imagem 3" /></div>
+<div align="center"><img src="http://drive.google.com/uc?export=view&id=1RH57fTOBL46_fUIWGSLteCdOrsT-MWEV" width=300 alt="Imagem 3" /></div>
