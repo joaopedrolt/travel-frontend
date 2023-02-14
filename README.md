@@ -25,8 +25,8 @@
 
 <h5 align="center">Obs: Caso a imagem não carregar clique no texto gerado para abri-la em uma guia do navegador ou recarregue a página do repositório</h5>
 
-<div align="center"><img src="http://drive.google.com/uc?export=view&id=1uT9KbXniCozUULqhwUaxSRSMoNdh1yx3" width=600 alt="Imagem 1" /></div>
+<div align="center"><img src="http://drive.google.com/uc?export=view&id=120-4Mj7gVaWGsOnJVTaEa_1j2LMCD-ez" width=600 alt="Imagem 1" /></div>
 
-<div align="center"><img src="http://drive.google.com/uc?export=view&id=1I-dOmO02qa3a-lIYCrwF46mLcN8i3Fw7" width=300 alt="Imagem 2" /></div>
+<div align="center"><img src="http://drive.google.com/uc?export=view&id=1_-wk_WGbZ9VpUxVT6bnGqq1oBjou6MnJ" width=600 alt="Imagem 2" /></div>
 
-<div align="center"><img src="http://drive.google.com/uc?export=view&id=1RH57fTOBL46_fUIWGSLteCdOrsT-MWEV" width=300 alt="Imagem 3" /></div>
+<div align="center"><img src="http://drive.google.com/uc?export=view&id=1gAZwQO7MgemEPHs0jpV63xmKLLVlF0og" width=300 alt="Imagem 3" /></div>
