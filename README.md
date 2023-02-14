@@ -1,4 +1,4 @@
-<h2 align="center">Travel</h2>
+<h2 align="center">Travel Website</h2>
 
 <h3 align="center">Informações</h3>
  
