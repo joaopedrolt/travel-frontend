@@ -5,8 +5,8 @@
 - Nome do Projeto: Travel.
 - Autoria: Código inspirado no canal Mr. Web Designer.
 - Proposito: Aperfeiçoamento em Sass, Swiper e Grid Wrap.
-- Progresso: Em desenvolvimento.
-- Tecnologias utilizadas: Html, Css e Javascript.
+- Progresso: Finalizado.
+- Tecnologias utilizadas: Html, Sass, Css e Javascript.
 - Requisitos: Qualquer navegador.
 
 <h3 align="center">Utilização</h3>
