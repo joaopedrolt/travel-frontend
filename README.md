@@ -5,7 +5,7 @@
 - Nome do Projeto: Travel, agência de viagens.
 - Autoria: Código inspirado no canal Mr. Web Designer.
 - Proposito: Aperfeiçoamento em Sass, Swiper e Grid Wrap.
-- Progresso: Finalizado.
+- Progresso: Completo e responsivo.
 - Tecnologias utilizadas: Html, Sass, Css e Javascript.
 - Requisitos: Qualquer navegador.
 
