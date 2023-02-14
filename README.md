@@ -2,7 +2,7 @@
 
 <h3 align="center">Informações</h3>
  
-- Nome do Projeto: Travel.
+- Nome do Projeto: Travel, agência de viagens.
 - Autoria: Código inspirado no canal Mr. Web Designer.
 - Proposito: Aperfeiçoamento em Sass, Swiper e Grid Wrap.
 - Progresso: Finalizado.
