@@ -585,6 +585,7 @@ section {
 }
 .footer .box-container .box .email {
   text-transform: lowercase;
+  white-space: nowrap;
 }
 .footer .box-container .box a {
   display: block;
